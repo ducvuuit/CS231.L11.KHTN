@@ -5,7 +5,10 @@ Python 3.8 or later with all [requirements.txt](https://github.com/ultralytics/y
 ```bash
 $ pip install -r requirements.txt
 ```
-
+if error when install torchvision, run:
+```bash
+$ pip install torch===1.7.0+cu110 torchvision===0.8.1+cu110 torchaudio===0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
 
 ## Environments
 
