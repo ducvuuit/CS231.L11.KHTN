@@ -49,5 +49,10 @@ $ python train.py --data coco.yaml --cfg yolov5s.yaml --weights '' --batch-size 
                                          yolov5l                                24
                                          yolov5x                                16
 ```
+
+
+## Result
+
 <img src="https://github.com/ducvuuit/CS231.L11.KHTN/blob/main/results.png" width="900">
 
+<img src="https://github.com/ducvuuit/CS231.L11.KHTN/blob/main/precision_recall_curve.png" width="900">
